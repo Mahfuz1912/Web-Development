@@ -26,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 17px 24px 17px 24px;
+    max-width: 1440px;
 }
 .Top-Name{
     color: rgb(13, 19, 33);
@@ -58,7 +59,7 @@ body{
 
  /* BackGround Section Start  */
  .Bg-Container{
-    max-width: 1440px;
+    width: 1440px;
     max-height: 652px;
     background-image: url('assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -94,9 +95,14 @@ body{
     padding: 21px 24px 21px 24px;
     font-size: 20px;
     font-weight: 600;
-    margin: 32px 0px;
+   margin-top: 32px;
     margin-left: 616px;
     margin-right: 616px;
+    text-decoration: none;
+ }
+ .Deco-Btn{
+   max-width: 160px;
+   max-height: 24px;
  }
  /* Backgroung Section End */
 
@@ -169,15 +175,92 @@ body{
    box-sizing: border-box;
    border: 1px solid rgba(13, 19, 33, 0.2);
    border-radius: 16px;   
-   }
+}
 
-   .Current-Target{
+.Current-Target{
    width: 1140px;
-   height: 460px;
-   border: 2px solid red;
  }
+ .Current-Target-Title{
+   margin-top: 151px;
+   color: rgb(13, 19, 33);
+   font-size: 32px;
+   font-weight: 800;
+   letter-spacing: 0%;
+   text-align: center;
+ }
+
+.Current-Target-Pragraph{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0%;
+   text-align: center;
+   opacity: 0.7;
+   padding-top: 24px;
+   padding-bottom: 48px;
+   padding-left: 144px;
+   padding-right: 144px;
+}
+
+ .Current-Target-Container{
+   display: flex;
+   gap: 24px;
+ }
+.Target-Div-HTML{
+   border-radius: 16px;
+   background-color: rgba(255, 76, 30, 0.05);
+   text-align: justify;
+   padding: 40px;
+}
+.HTML-Title{
+   padding-top: 24px;
+   color: rgb(13, 19, 33);
+   font-size: 24px;
+   font-weight: 800;
+   line-height: 36px;
+   text-align: left;
+}
+.HTML-Pragraph{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   opacity: 0.7;
+   padding-top: 8px;
+   padding-bottom: 24px;
+}
+.HTML-ancor{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 700;
+   letter-spacing: 0%;
+   text-align: left;
+   text-decoration-line: underline;
+}
+.Target-Div-CSS{
+   border-radius: 16px;
+   background: rgba(0, 76, 232, 0.05);
+   padding: 40px;
+   justify-content: center;
+}
+.Target-Div-JS{
+   border-radius: 16px;
+   background: rgba(255, 223, 0, 0.05);
+   padding: 40px;
+}
+
+
+
+
+
+
+
+
  .Need-Support{
-   background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("assets/handshake.jpg");
+   border-radius: 16px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('assets/handshake.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -187,9 +270,72 @@ body{
    margin-top: 49px ;
    margin-bottom:80px ;
  }
+.Support-Title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 700;
+   letter-spacing: 0%;
+   text-align: center;
+   padding-top: 64px;
+}
+.Support-Pragraph{
+   color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0%;
+   text-align: center;
+   opacity: 0.7;
+   padding-top: 16px;
+}
+.text-box{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   padding-top: 24px;
+   padding-left: 228px;
+}
+.text-box-Button{
+   color: rgb(13, 19, 33);
+   font-size: 20px;
+   font-weight: 600;
+   text-align: center;
+   margin-left: 16px;
+   padding: 17px 20px 17px 20px;
+   border-radius: 8px;
+   background-color: rgb(255, 255, 255);
 
+}
  footer{
    width: 1440px;
    height: 100px;
-   border: 2px solid greenyellow;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
  }
+
+.Footer-Name{
+   margin-left: 150px;
+}
+.Footer-Ancor{
+   padding-left: 527px;
+}
+.Footer-Ancor-FB{
+   padding-right: 24px;
+}
+.Footer-Ancor-git{
+   padding-right: 24px;
+}
+textarea{
+   width: 548px ;
+   height: 57px;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 8px;
+   background: rgb(255, 255, 255);
+}
